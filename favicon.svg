@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bragg Creek Rum favicon">
+  <rect width="64" height="64" fill="#050303"/>
+  <path d="M32 6 50 14v18c0 13-7 22-18 27-11-5-18-14-18-27V14l18-8Z" fill="#100706" stroke="#b42322" stroke-width="3"/>
+  <path d="M32 11 45 17v15c0 9-5 16-13 20-8-4-13-11-13-20V17l13-6Z" fill="none" stroke="#b88a4d" stroke-width="1.6"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="900" fill="#efe1c5" letter-spacing="1">BC</text>
+  <path d="M21 45h24" stroke="#b42322" stroke-width="2" stroke-linecap="round"/>
+</svg>
