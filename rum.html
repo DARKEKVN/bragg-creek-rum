@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The dark, limited rum profile of Bragg Creek Rum: molasses, charred oak, leather, vanilla, and age." />
+    <title>The Rum | Bragg Creek Rum</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="top-strip">Private dark rum. Very few bottles. Booking-only access for adults 21+.</div>
+      <header class="site-header">
+        <a class="brand" href="./"><span class="brand__main">Bragg Creek</span><span class="brand__sub">Rum</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle><span></span></button>
+        <nav class="site-nav" aria-label="Main navigation" data-site-nav>
+          <a href="./">Home</a>
+          <a href="./about.html">About Snake</a>
+          <a href="./rum.html" aria-current="page">The Rum</a>
+          <a href="./barrel-room.html">Barrel Room</a>
+          <a href="./booking.html">Booking</a>
+        </nav>
+        <a class="button button--small" href="./booking.html">Book a Private Tasting</a>
+      </header>
+
+      <main>
+        <section class="page-hero" style="--page-image: url('/assets/product-still.png')">
+          <div class="page-hero__content">
+            <h1>The Dark <span>Pull</span></h1>
+            <p class="page-hero__lead">
+              Bragg Creek Rum is not built to disappear into a mixed drink. It is dark, slow, barrel-heavy,
+              and made in batches small enough that every bottle has a memory attached.
+            </p>
+          </div>
+        </section>
+
+        <section class="section split">
+          <div>
+            <p class="section-kicker">What is in the glass</p>
+            <h2 class="section-title">Mahogany red. <span>Oak black.</span> Long finish.</h2>
+            <p class="copy">
+              The profile leans into blackstrap molasses, burnt orange peel, vanilla bean, leather, copper,
+              and smoke from deep char. Snake will not hand you the sheet, but the method leaves fingerprints:
+              make the base honest, let the barrel speak, and stop touching it when it starts telling the truth.
+            </p>
+            <ul class="spec-list" aria-label="Rum details">
+              <li><strong>Style</strong><span>Private dark rum</span></li>
+              <li><strong>Color</strong><span>Mahogany red-black</span></li>
+              <li><strong>Release</strong><span>Very limited bottles</span></li>
+              <li><strong>Access</strong><span>Booking request only</span></li>
+            </ul>
+          </div>
+          <div class="bottle-card" aria-label="Bragg Creek Rum bottle illustration">
+            <div class="bottle">
+              <div class="bottle__label">
+                <div>
+                  <strong>Bragg Creek<br />Rum</strong>
+                  <span>Private Dark Stock</span>
+                  <span>By Snake</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section split split--reverse">
+          <figure class="media-frame media-frame--square">
+            <img src="/assets/product-still.png" alt="Dark rum bottle still life with oak, copper, molasses, orange peel, and vanilla" />
+          </figure>
+          <div>
+            <p class="section-kicker">Aged well</p>
+            <h2 class="section-title">No rush survives <span>the barrel room.</span></h2>
+            <p class="copy">
+              Bragg Creek's better notes are the ones that take their time: old oak, dark sugar, red fruit,
+              dry spice, and a finish that hangs around like a leather jacket on the back of a chair.
+            </p>
+            <div class="note-grid">
+              <article class="note">
+                <strong>Nose</strong>
+                <p>Molasses, orange oil, antique wood, copper warmth.</p>
+              </article>
+              <article class="note">
+                <strong>Body</strong>
+                <p>Dense dark sugar, vanilla, smoke, and barrel spice.</p>
+              </article>
+              <article class="note">
+                <strong>Finish</strong>
+                <p>Dry oak, leather, red heat, and a slow fade.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="brand" href="./"><span class="brand__main">Bragg Creek</span><span class="brand__sub">Rum</span></a>
+        <nav aria-label="Footer navigation">
+          <a href="./about.html">About Snake</a>
+          <a href="./rum.html">The Rum</a>
+          <a href="./barrel-room.html">Barrel Room</a>
+          <a href="./booking.html">Booking</a>
+        </nav>
+        <p class="footer-note">Private stock. Booking-only access. Please enjoy responsibly.</p>
+      </footer>
+    </div>
+    <div class="age-gate" data-age-gate>
+      <section class="age-card" aria-labelledby="age-title">
+        <h2 id="age-title">Adults Only</h2>
+        <p data-age-note>Bragg Creek Rum is a private dark rum experience intended for visitors 21 and over.</p>
+        <div class="hero__actions">
+          <button class="button button--red" type="button" data-accept-age>I am 21+</button>
+          <button class="button" type="button" data-reject-age>Not yet</button>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
